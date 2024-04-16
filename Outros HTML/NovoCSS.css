@@ -1,0 +1,55 @@
+.button
+{
+text-decoration: none;
+width: 150px;
+
+
+
+}
+
+.btn-doar
+{
+    display: inline-block;
+    background-color: hotpink;
+    width: 50px;
+
+
+}
+
+.btn-doar::after
+{
+font-family: 'Courier New', Courier, monospace;    
+content:"♥";
+margin-left: 8px;
+position: relative;
+left: 15px;
+opacity: 0;
+transition: left 1s ease, opacity 1s ease-out;
+
+
+}
+
+.btn-doar:hover
+{
+
+    background-color: red;
+    width: 60px;
+    transition:background-color 2s ease, width 2s ease-in-out;
+
+}
+
+.btn-doar:hover::after
+{
+left: 0px;
+opacity: 1;
+
+
+
+
+
+
+
+
+
+}
+

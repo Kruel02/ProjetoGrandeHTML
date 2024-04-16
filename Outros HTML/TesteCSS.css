@@ -1,0 +1,60 @@
+*{
+
+margin: 0;
+padding: 0;
+
+}
+
+.div{
+position:relative;
+
+
+}
+
+
+
+.animaçao
+{
+    width: 100vw;
+    height: 250px;
+    margin: auto;
+    border-radius: 20px;
+    border: 1px gray;
+}
+
+.quadrado
+{
+    display: flex;
+    color: white;
+    width: 20vw;
+    align-items: center;
+    height: 100px;
+    border-radius: 16px;
+    background-color: red;
+
+
+
+
+
+}
+
+.quadrado:hover{
+
+    transition: width 6s;
+    -ms-transform-origin-x: 50px, right;
+
+
+}
+
+
+div:hover
+{
+    transition: width 6s;
+    -ms-transform-origin-x: 50px, right;
+    
+    
+    
+    
+    
+    
+}

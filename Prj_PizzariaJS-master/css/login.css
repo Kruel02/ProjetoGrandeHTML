@@ -1,0 +1,15 @@
+main
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.formulario_elemento
+{
+
+display: flex;
+flex-direction: column;
+gap: 32px;;
+
+}
